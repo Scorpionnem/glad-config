@@ -8,7 +8,7 @@ CXX = c++
 CXXFLAGS = -Wall -Werror -Wextra
 
 %.o : %.cpp
-		@$(CXX) $(CXXFLAGS) -o $@ -c $< -I includes/glad
+		@$(CXX) $(CXXFLAGS) -o $@ -c $< -I includes/
 
 all: $(NAME)
 
